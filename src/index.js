@@ -4,12 +4,10 @@ import App from "./App";
 import { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
-  *{
+  body{
     padding: 0;
     margin: 0;
     color: #fff;
-  }
-  body{
     background: #826aed;
     font-family: Arial, Helvetica, sans-serif;
   }
