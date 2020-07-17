@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-import React from "react";
-=======
 import React, { useState } from "react";
 import {
   Container,
@@ -10,7 +7,6 @@ import {
   EndText,
   PointsText,
 } from "./style";
->>>>>>> feature/layout
 
 export default function Home() {
   const [Questions] = useState([
